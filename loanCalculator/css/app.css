@@ -1,0 +1,83 @@
+h3 {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+}
+body {
+    background-color: rgb(16, 28, 53);
+}
+
+
+input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: rgb(18, 23, 29);
+    color: white;
+    padding: 5px 5px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #1d275f;
+}
+
+
+.center {
+    margin: auto;
+    width: 40%;
+    border: 1px solid rgb(43, 42, 51);
+    
+    }
+    .center1 {
+        margin: auto;
+        width: 40%;
+        
+    }
+    input[class=me]{
+        width: 100%;
+        background-color: rgb(157, 160, 167);
+        color: rgb(27, 16, 16);
+        padding: 1px 10px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .container {
+        height:50%;
+        background-color: rgb(216, 218, 224);
+        color: rgb(15, 14, 14);
+        width:350px;
+        padding:10px;
+        border-radius: 15px;
+    }
+        
+       
+   
+    
+
+       
+        
+       

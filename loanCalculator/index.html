@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <title>Loancalculator</title>
+</head>
+<body>
+      
+    
+     <h3 class="center">Loan Calculator</h3> 
+<div>
+                 
+<div class="container">
+  <form id="loan-form" >
+    <span class="input-group-addon">$</span>
+    <input type="number" id="amount" name="lastname"
+    placeholder="$ Amount"  required><br>
+    <br>
+    
+    <span class="input-group-addon">%</span>
+    <input type="number" id="interest" name="lastname"
+    placeholder="% Interest" required
+    ><br>
+    
+     <br>
+    <input type="text" id="years" name="lastname"
+    placeholder="Years to pay" required><br>
+    <br>
+    
+  
+    <input type="submit" value="Calculate" class="btn btn-dark btn-block">
+  </form>
+<!--loader here-->
+
+<style>
+  #loading, #results{
+  display:none;  
+} 
+.cent{margin: auto;
+    width: 60%;
+    height: 40%;
+  
+
+}
+</style>
+<div id="loading" class="cent">
+    <img src="img/loading.gif" alt="">
+
+</div>
+
+<!--results here-->
+<div id="results" class="pt-4">
+    <h5 class="center1">Results</h5>
+
+
+     <span class="input-group-addon" > Monthly Payment</span>
+    <input type="number" id="Monthly-payment" name="firstname"
+    disabled class="me" ><br>
+
+
+    <span class="input-group-addon">Total Payment</span>
+   <input type="number" id="Total-payment" name="firstname"
+   disabled class="me" ><br>
+
+
+    <span class="input-group-addon">Total interest</span>
+   <input type="number" id="total-interest" name="firstname"
+   disabled class="me" ><br>
+
+</div>
+</div>
+</div>
+
+    <script src ="app.js"></script>
+</body>
+</html>
